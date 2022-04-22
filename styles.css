@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.watch{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-color: transparent;
+    border: 2px solid white;
+    box-shadow: -5px -5px 50px blue inset, 3px 3px 50px blue;
+    border-radius: 600px;
+}
+.watch #twelve{
+    color: white;
+    margin: 0px;
+    position: absolute;
+    top: 0px;
+    left: 90px;
+}
+.watch #nine{
+    color: white;
+    margin: 0px;
+    position: absolute;
+    top: 90px;
+    left: 0px;
+}
+.watch #three{
+    color: white;
+    margin: 0px;
+    position: absolute;
+    right: 0px;
+    top: 90px;
+}
+.watch #six{
+    color: white;
+    margin: 0px;
+    position: absolute;
+    top: 180px;
+    left: 93px;
+}
+#second{
+    height: 100px;
+    width: 0.5px;
+    background-color: red;
+    border-radius: 2px;
+    transform-origin: bottom;
+    position: absolute;
+    left: 50%;
+}
+#minute{
+    height: 80px;
+    width: 1.5px;
+    background-color: green;
+    box-shadow: 10px 10px 10px blue;
+    border-radius: 2px;
+    transform-origin: bottom;
+    position: absolute;
+    left: 50%;
+    top: 20px;
+}
+#hour{
+    height: 60px;
+    width: 3px;
+    background-color: orange;
+    border-radius: 2px;
+    transform-origin: bottom;
+    position: absolute;
+    left: 50%;
+    top: 40px;
+}
