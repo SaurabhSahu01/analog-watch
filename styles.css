@@ -2,8 +2,14 @@ body{
     background-color: black;
     height: 100vh;
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+.maindiv{
+    display: flex;
+    flex-wrap: wrap;
 }
 .watch{
     position: relative;
@@ -55,7 +61,6 @@ body{
     height: 80px;
     width: 1.5px;
     background-color: green;
-    box-shadow: 10px 10px 10px blue;
     border-radius: 2px;
     transform-origin: bottom;
     position: absolute;
@@ -71,4 +76,25 @@ body{
     position: absolute;
     left: 50%;
     top: 40px;
+}
+.text1 h1{
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    padding: 0px 8px;
+    font-size: 5rem;
+    text-shadow: 2px 2px 10px red, 2px 2px 10px red;
+}
+.text h1{
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    padding: 0px 8px;
+    font-size: 5rem;
+    text-shadow: 2px 2px 10px red, 2px 2px 10px red;
+}
+.textdiv h1{
+    display: inline;
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 4.5rem;
+    text-shadow: 2px 2px 10px red, 2px 2px 10px red;
 }
