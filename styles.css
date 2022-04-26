@@ -51,7 +51,7 @@ body{
 #second{
     height: 100px;
     width: 0.5px;
-    background-color: red;
+    background-color: white;
     border-radius: 2px;
     transform-origin: bottom;
     position: absolute;
@@ -60,7 +60,7 @@ body{
 #minute{
     height: 80px;
     width: 1.5px;
-    background-color: green;
+    background-color: white;
     border-radius: 2px;
     transform-origin: bottom;
     position: absolute;
@@ -70,7 +70,7 @@ body{
 #hour{
     height: 60px;
     width: 3px;
-    background-color: orange;
+    background-color: white;
     border-radius: 2px;
     transform-origin: bottom;
     position: absolute;
