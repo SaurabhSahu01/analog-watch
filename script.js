@@ -10,3 +10,9 @@ setInterval(()=>{
     document.getElementById('minute').style.transform = `rotate(${mrotate}deg)`;
     document.getElementById('second').style.transform = `rotate(${srotate}deg)`;
 },1000);
+
+let img = document.getElementById("avatar");
+fetch("https://api.github.com/users/SaurabhSahu01")
+.then(response => response.json())
+.then(result => {img.setAttribute("src", result["avatar_url"]);})
+

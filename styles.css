@@ -98,3 +98,23 @@ body{
     font-size: 4.5rem;
     text-shadow: 2px 2px 10px red, 2px 2px 10px red;
 }
+#details{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    color:whitesmoke; 
+    font-family: monospace;
+    justify-content: center;
+}
+#link{
+    text-decoration: none; 
+    color: whitesmoke; 
+}
+#avatar{
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
